@@ -1,0 +1,19 @@
+#CODEBOOK.MD
+
+This file describes the four columns of the tidy_data.csv file produced by my script to clean up the data.
+
+The resultant four columns are:
+
+Subject: This column identifies the subject participant in the data collection by the folks at UCI
+
+Activity: this column provides information on which activity the subject was perform
+
+MeanValue: this column provides the mean of the variable for that persons' performance
+
+variable: this column provides the name of the variable taken from the accelerometer data for that subject's activity.
+
+There are 30 subjects, 6 activities performed each and 79 metrics collected here (from an initial 561).
+
+30*6*79 = 14220 rows of data.
+
+This data was put together using base R but dplyr could have done it a little more efficiently maybe.
